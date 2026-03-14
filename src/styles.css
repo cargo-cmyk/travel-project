@@ -186,3 +186,7 @@ footer ul {
 footer ul li {
   margin-bottom: 8px;
 }
+
+.img-responsive {
+  filter: brightness(0.9) saturate(1.2);
+}
