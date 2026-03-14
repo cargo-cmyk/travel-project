@@ -191,24 +191,40 @@ footer ul li {
   filter: brightness(0.9) saturate(1.2);
 }
 
-table {
-  width: 100%;
+section table {
+  width: 60%;
+  margin: 20px auto;
   border-collapse: collapse;
-  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 th,
 td {
-  border: 1px solid #ddd;
-  padding: 12px 16px;
+  padding: 14px 24px;
   text-align: left;
+  border-bottom: 1px solid #eee;
 }
 
 th {
   background-color: #231d3c;
   color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 tr:nth-child(even) {
   background-color: #f9f6ff;
+}
+
+tr:hover {
+  background-color: #ede8ff;
+  transition: background-color 0.2s ease;
+}
+
+td:first-child {
+  font-weight: 600;
+  color: #231d3c;
 }
